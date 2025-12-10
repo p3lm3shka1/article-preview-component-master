@@ -1,0 +1,114 @@
+//mixins
+@use "mixins" as *;
+@use "variables" as *;
+
+//fonts
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+body {
+  @include body-template;
+  background-color: $light-grayish-blue;
+  @include flex-full;
+  height: 100vh;
+  flex-direction: column;
+}
+//card section
+.card {
+  @include flex-simple;
+  max-width: 800px;
+  border-radius: 12px;
+  margin: 0 auto;
+
+  .card-image {
+    width: 300px;
+    border-radius: 12px 0 0 12px;
+    object-fit: cover;
+  }
+  .card-content {
+    background: $white;
+    padding: $pad-s $pad-m;
+    position: relative;
+    border-radius: 0 12px 12px 0;
+
+    h2 {
+      font-weight: $f-w-700;
+      color: $dark-grayish-blue;
+      margin: 0 0 $pad-s 0;
+      font-size: $fs-lrg;
+    }
+    p {
+      font-weight: $f-w-500;
+      color: $dark-blue;
+      margin-bottom: $pad-s;
+      font-size: $fs-md;
+    }
+    .card-author {
+      @include flex-simple;
+      align-items: center;
+      position: relative;
+      margin: $pad-m 0 $pad-s 0;
+
+      .avatar-author {
+        width: 40px;
+        border-radius: 50%;
+        margin-right: $pad-s;
+      }
+      .card-name {
+        color: $dark-grayish-blue;
+        font-weight: $f-w-700;
+      }
+      .card-date {
+        color: $dark-blue;
+      }
+      // share and popup styles
+      .share-btn {
+        margin-left: auto;
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        border: none;
+        cursor: pointer;
+        background: $light-grayish-blue;
+        &:hover {
+          background: $dark-grayish-blue;
+          img {
+            filter: brightness(5);
+          }
+        }
+      }
+
+      .popup {
+        @include popup-style;
+
+        &.active {
+          opacity: 1;
+        }
+
+        .popup-text {
+          letter-spacing: 4px;
+          color: $grayish-blue;
+        }
+        img {
+          width: auto;
+          cursor: pointer;
+        }
+        .triangle {
+          @include popup-bottom;
+        }
+      }
+    }
+  }
+}
+//atributtion
+.attribution {
+  padding: $pad-m;
+  text-align: center;
+  a {
+    text-decoration: none;
+    color: $dark-grayish-blue;
+  }
+}
+
+@media (max-width: 30rem) {
+  @include media-480px;
+}
