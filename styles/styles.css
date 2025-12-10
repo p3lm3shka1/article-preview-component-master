@@ -95,11 +95,15 @@ body {
   opacity: 1;
 }
 .card .card-content .card-author .popup .popup-text {
+  margin-bottom: 1rem;
+  font-size: 15px;
   letter-spacing: 4px;
   color: hsl(212, 23%, 69%);
 }
 .card .card-content .card-author .popup img {
-  width: auto;
+  width: 24px;
+  height: 24px;
+  margin-bottom: 1rem;
   cursor: pointer;
 }
 .card .card-content .card-author .popup .triangle {

@@ -85,11 +85,15 @@ body {
         }
 
         .popup-text {
+          margin-bottom: $pad-s;
+          font-size: $fs-md;
           letter-spacing: 4px;
           color: $grayish-blue;
         }
         img {
-          width: auto;
+          width: 24px;
+          height: 24px;
+          margin-bottom: $pad-s;
           cursor: pointer;
         }
         .triangle {
