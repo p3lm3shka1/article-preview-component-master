@@ -22,9 +22,9 @@ This is a solution to the [Article preview component challenge on Frontend Mento
 
 ## Links
 
-[Repository URL](https://github.com/p3lm3shka1/Kelioniu-puslapio-dizainas)
+Repository URL : https://github.com/p3lm3shka1/Kelioniu-puslapio-dizainas
 
-[Live site URL](https://p3lm3shka1.github.io/Kelioniu-puslapio-dizainas/)
+Live site URL : https://p3lm3shka1.github.io/article-preview-component-master
 
 ## Built with
 
