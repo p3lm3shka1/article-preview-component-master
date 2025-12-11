@@ -79,8 +79,8 @@ body {
 }
 .card .card-content .card-author .popup {
   position: absolute;
-  bottom: 70px;
-  left: 70%;
+  bottom: 50px;
+  left: 67.5%;
   padding: 1rem 2rem;
   background: hsl(217, 19%, 35%);
   color: hsl(0, 0%, 100%);
@@ -108,7 +108,7 @@ body {
 }
 .card .card-content .card-author .popup .triangle {
   position: absolute;
-  bottom: -14px;
+  bottom: -13px;
   right: 45%;
   width: 0;
   height: 0;
@@ -126,7 +126,7 @@ body {
   color: hsl(217, 19%, 35%);
 }
 
-@media (max-width: 30rem) {
+@media (max-width: 768px) {
   .card {
     width: 90%;
     padding: 3rem 0 0 0;
