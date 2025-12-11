@@ -31,10 +31,11 @@ This is a solution to the [Article preview component challenge on Frontend Mento
 
 <details>
 <summary>Desktop version (Active state) </summary>
-<img width="1200" height="500" alt="image" src="https://github.com/user-attachments/assets/42a0e4b6-fe4d-4455-82dc-5ca92b0948e5" />
+<img width="1200" height="500" alt="image" src="https://github.com/user-attachments/assets/a3674786-bcf0-4733-ada5-d355a1f64204" />
 " />
 
 </details>
+
 
 
 
